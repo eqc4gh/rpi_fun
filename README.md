@@ -10,7 +10,7 @@ This course takes students from basic computer concepts to building functional p
 
 | Week | Topic | Key Concepts |
 |------|-------|--------------|
-| 1 | Introduction to Computing & Environment Setup | Computer architecture, RPi setup, first boot |
+| [1](./week-01/README.md) | Introduction to Computing & Environment Setup | Computer architecture, RPi setup, first boot |
 | 2 | Linux Basics & Command Line | File systems, basic commands, navigation |
 | 3 | Introduction to Python Programming | Variables, data types, basic I/O |
 | 4 | GPIO Basics & LED Control | Digital output, circuits, safety |
