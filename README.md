@@ -31,7 +31,7 @@ This course takes students from basic computer concepts to building functional p
 
 ## Materials Needed
 
-See `materials-list.md` for complete hardware and software requirements.
+See [`materials-list.md`](./materials-list.md) for complete hardware and software requirements.
 
 ## Repository Structure
 
