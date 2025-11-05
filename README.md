@@ -11,10 +11,10 @@ This course takes students from basic computer concepts to building functional p
 | Week | Topic | Key Concepts |
 |------|-------|--------------|
 | [1](./week-01/README.md) | Introduction to Computing & Environment Setup | Computer architecture, RPi setup, first boot |
-| 2 | Linux Basics & Command Line | File systems, basic commands, navigation |
-| 3 | Introduction to Python Programming | Variables, data types, basic I/O |
-| 4 | GPIO Basics & LED Control | Digital output, circuits, safety |
-| 5 | Sensors & Input | Digital/analog input, reading sensors |
+| [2](./week-02/README.md) | Linux Basics & Command Line | File systems, basic commands, navigation |
+| [3](./week-03/README.md) | Introduction to Python Programming | Variables, data types, basic I/O |
+| [4](./week-04/README.md) | GPIO Basics & LED Control | Digital output, circuits, safety |
+| [5](./week-05/README.md) | Sensors & Input | Digital/analog input, reading sensors |
 | 6 | Simple Robotics - Motors & Movement | PWM, motor control, basic robot chassis |
 | 7 | Robotics Project - Line Following | Sensors + motors, logic integration |
 | 8 | Web Development Basics | HTML/CSS, Flask introduction |
