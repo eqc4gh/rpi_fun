@@ -16,7 +16,7 @@ This course takes students from basic computer concepts to building functional p
 | [4](./week-04/README.md) | GPIO Basics & LED Control | Digital output, circuits, safety |
 | [5](./week-05/README.md) | Sensors & Input | Digital/analog input, reading sensors |
 | [6](./week-06/README.md) | Simple Robotics - Motors & Movement | PWM, motor control, basic robot chassis |
-| 7 | Robotics Project - Line Following | Sensors + motors, logic integration |
+| [7](./week-07/README.md) | Robotics Project - Line Following | Sensors + motors, logic integration |
 | 8 | Web Development Basics | HTML/CSS, Flask introduction |
 | 9 | Database Integration | SQLite, storing sensor data |
 | 10 | IoT Dashboard Project | Web interface for sensor monitoring |
