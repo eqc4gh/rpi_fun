@@ -17,7 +17,7 @@ This course takes students from basic computer concepts to building functional p
 | [5](./week-05/README.md) | Sensors & Input | Digital/analog input, reading sensors |
 | [6](./week-06/README.md) | Simple Robotics - Motors & Movement | PWM, motor control, basic robot chassis |
 | [7](./week-07/README.md) | Robotics Project - Line Following | Sensors + motors, logic integration |
-| 8 | Web Development Basics | HTML/CSS, Flask introduction |
+| [8](./week-08/README.md) | Web Development Basics | HTML/CSS, Flask introduction |
 | 9 | Database Integration | SQLite, storing sensor data |
 | 10 | IoT Dashboard Project | Web interface for sensor monitoring |
 | 11 | Clustering Concepts & Setup | Distributed computing, MPI basics |
