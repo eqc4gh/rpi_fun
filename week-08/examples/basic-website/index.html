@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Alex Johnson</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Page!</h1>
+        <p>Hi! I'm Alex and this is my first website.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#favorites">Favorites</a>
+        <a href="#fun-facts">Fun Facts</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Me Section -->
+        <section id="about" class="card">
+            <h2>About Me</h2>
+            <div class="profile-container">
+                <div class="profile-image">
+                    <!-- Placeholder for profile image -->
+                    <div class="image-placeholder">
+                        <p>Your Photo Here</p>
+                    </div>
+                </div>
+                <div class="profile-text">
+                    <p><strong>Name:</strong> Alex Johnson</p>
+                    <p><strong>Age:</strong> 12 years old</p>
+                    <p><strong>Grade:</strong> 7th Grade</p>
+                    <p><strong>School:</strong> Raspberry Pi Academy</p>
+                    <p>I love learning about computers, building things with my Raspberry Pi, and playing video games with my friends!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="card">
+            <h2>My Hobbies</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-item">
+                    <h3>🎮 Gaming</h3>
+                    <p>I love playing Minecraft and Roblox with my friends.</p>
+                </div>
+                <div class="hobby-item">
+                    <h3>💻 Coding</h3>
+                    <p>Building projects with Python and making websites is super fun!</p>
+                </div>
+                <div class="hobby-item">
+                    <h3>📚 Reading</h3>
+                    <p>I enjoy science fiction books and comics.</p>
+                </div>
+                <div class="hobby-item">
+                    <h3>⚽ Sports</h3>
+                    <p>I play soccer on weekends and love watching the World Cup.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Favorites Section -->
+        <section id="favorites" class="card">
+            <h2>My Favorites</h2>
+            <div class="favorites-list">
+                <div class="favorite-item">
+                    <span class="favorite-label">Favorite Color:</span>
+                    <span class="favorite-value">Blue 🔵</span>
+                </div>
+                <div class="favorite-item">
+                    <span class="favorite-label">Favorite Food:</span>
+                    <span class="favorite-value">Pizza 🍕</span>
+                </div>
+                <div class="favorite-item">
+                    <span class="favorite-label">Favorite Movie:</span>
+                    <span class="favorite-value">Spider-Man: Into the Spider-Verse</span>
+                </div>
+                <div class="favorite-item">
+                    <span class="favorite-label">Favorite Subject:</span>
+                    <span class="favorite-value">Computer Science</span>
+                </div>
+                <div class="favorite-item">
+                    <span class="favorite-label">Favorite Game:</span>
+                    <span class="favorite-value">Minecraft</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fun Facts Section with Interactivity -->
+        <section id="fun-facts" class="card">
+            <h2>Fun Facts About Me</h2>
+            <p>Click the button to see a random fun fact!</p>
+            <button onclick="showRandomFact()" class="btn">Show Random Fact</button>
+            <div id="fact-display" class="fact-box"></div>
+            
+            <div class="counter-section">
+                <h3>Click Counter</h3>
+                <p>How many times can you click?</p>
+                <div class="counter-display" id="counter">0</div>
+                <div class="button-group">
+                    <button onclick="incrementCounter()" class="btn btn-small">+1</button>
+                    <button onclick="decrementCounter()" class="btn btn-small">-1</button>
+                    <button onclick="resetCounter()" class="btn btn-small btn-secondary">Reset</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="card">
+            <h2>Get In Touch</h2>
+            <p>Want to collaborate on a project or just say hi?</p>
+            <button onclick="showContactInfo()" class="btn">Show Contact Info</button>
+            <div id="contact-info"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Alex Johnson | Created with ❤️ for Week 8 Project</p>
+        <p>Built with HTML, CSS, and JavaScript on Raspberry Pi</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
